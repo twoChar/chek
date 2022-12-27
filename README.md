@@ -17,8 +17,10 @@ Example:
 - Ground speed in Km/h
 
 3- You can click "View flight" to display live flight path on the map, which auto refreshes every 10 seconds. if you want it to refresh more often, go to the file src\pages\Flight\FlightInfo.jsx ,  and at line 318: 
-###          }, 10000); // How often flight status refreshes in milliseconds, change to a smaller number if you want it to refresh more often
-change 10000 to another number, where the number equals amount of seconds multiplied by 10.
+```
+}, 10000); // How often flight status refreshes in milliseconds, change to a smaller number if you want it to refresh more often
+```
+you can change 10000 to another number, where the number equals amount of seconds multiplied by 10.
 
 4- Information about airports, and recent arrivals and departures (if available).
 
