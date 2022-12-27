@@ -1,7 +1,28 @@
 # flight-tracker-reactjs
 A simple reactjs website that displays current flying planes on a map, showing details for each flight.
 
+Example:
+
 ![Example](https://raw.githubusercontent.com/reemrizzk/flight-tracker-reactjs/main/example1.png)
+
+## Features
+
+1- Display current fetched flights on a map, ability to filter aircraft on map by call sign, you can hover on an aircraft to view the Call sign (If available), or click on it to view information about the flight, which can include:
+- Call sign
+- Aircraft type
+- Registration
+- Airline
+- Route
+- Altitude in feet
+- Ground speed in Km/h
+
+3- You can click "View flight" to display live flight path on the map, which auto refreshes every 10 seconds. if you want it to refresh more often, go to the file src\pages\Flight\FlightInfo.jsx ,  and at line 318: 
+###          }, 10000); // How often flight status refreshes in milliseconds, change to a smaller number if you want it to refresh more often
+change 10000 to another number, where the number equals amount of seconds multiplied by 10.
+
+4- Information about airports, and recent arrivals and departures (if available).
+
+5- Searching by aircraft registration or airport code.
 
 ## How to run project
 
