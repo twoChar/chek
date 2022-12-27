@@ -26,6 +26,25 @@ you can change 10000 to another number, where the number equals amount of second
 
 5- Searching by aircraft registration or airport code.
 
+## Packages used
+
+1- react-router
+
+2- react-leaflet
+
+## Other resources and APIs used
+
+1- The app uses [OpenSky Network API](https://opensky-network.org/) for information about flights to be displayed on the map. OpenSky network API has request limitations of 100 API requests per day for anonymous users or 1000 API requests per day for registered users.
+
+2- The app uses [hexdb.io API](https://hexdb.io/) for information about Aircraft, call signs, and airports.
+
+3- The app uses [Country Flags API](https://countryflagsapi.com) for flag images.
+
+4- The app retreives most recent available image of aircraft from [JetPhotos](http://jetphotos.com/). Link is retreived from [hexdb.io API](https://hexdb.io/).
+
+5-The app uses [LeafletJs](https://leafletjs.com/) with [OpenStreetMap](https://www.openstreetmap.org/) for the map.
+
+
 ## How to run project
 
 1- First you need to install [NodeJs](https://nodejs.org/en/)
@@ -50,14 +69,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Other resources and APIs used:
-
-1- The app uses [OpenSky Network API](https://opensky-network.org/) for information about flights to be displayed on the map. OpenSky network API has request limitations of 100 API requests per day for anonymous users or 1000 API requests per day for registered users.
-
-2- The app uses [hexdb.io API](https://hexdb.io/) for information about Aircraft, call signs, and airports.
-
-3- The app uses [Country Flags API](https://countryflagsapi.com) for flag images.
-
-4- The app retreives most recent available image of aircraft from [JetPhotos](http://jetphotos.com/). Link is retreived from [hexdb.io API](https://hexdb.io/).
-
-5-The app uses [LeafletJs](https://leafletjs.com/) with [OpenStreetMap](https://www.openstreetmap.org/) for the map.
