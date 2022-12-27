@@ -33,6 +33,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 3- The app uses [countryflagsapi](https://countryflagsapi.com) for flag images.
 
-4- The app retreives most recent available image of aircraft from [JetPhotos](http://jetphotos.com/).
+4- The app retreives most recent available image of aircraft from [JetPhotos](http://jetphotos.com/). Link is retreived from [hexdb.io API](https://hexdb.io/).
 
 5-The app uses [LeafletJs](https://leafletjs.com/) with [OpenStreetMap](https://www.openstreetmap.org/) for the map.
