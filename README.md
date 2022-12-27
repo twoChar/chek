@@ -1,11 +1,14 @@
 # flight-tracker-reactjs
 A simple reactjs website that displays current flying planes on a map, showing details for each flight.
 
-# Getting Started with Create React App
+## How to run project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1- First you need to install [NodeJs](https://nodejs.org/en/)
 
-## Available Scripts
+2- Cloning this repository and in the terminal:
+
+### `npm install`
+
 
 In the project directory, you can run:
 
