@@ -1,6 +1,8 @@
 # flight-tracker-reactjs
 A simple reactjs website that displays current flying planes on a map, showing details for each flight.
 
+![Example]([http://url/to/img.png](https://raw.githubusercontent.com/reemrizzk/flight-tracker-reactjs/main/example1.png))
+
 ## How to run project
 
 1- First you need to install [NodeJs](https://nodejs.org/en/)
@@ -27,11 +29,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Other resources and APIs used:
 
-1- The app uses [OpenSky Network API](https://opensky-network.org/) for information flights that are displayed on the map. OpenSky network API has request limitations of 100 API requests per day for anonymous users or 1000 API requests per day for registered users.
+1- The app uses [OpenSky Network API](https://opensky-network.org/) for information about flights to be displayed on the map. OpenSky network API has request limitations of 100 API requests per day for anonymous users or 1000 API requests per day for registered users.
 
 2- The app uses [hexdb.io API](https://hexdb.io/) for information about Aircraft, call signs, and airports.
 
-3- The app uses [countryflagsapi](https://countryflagsapi.com) for flag images.
+3- The app uses [Country Flags API](https://countryflagsapi.com) for flag images.
 
 4- The app retreives most recent available image of aircraft from [JetPhotos](http://jetphotos.com/). Link is retreived from [hexdb.io API](https://hexdb.io/).
 
