@@ -1,9 +1,11 @@
 # flight-tracker-reactjs
 A simple reactjs website that displays current flying planes on a map, showing details for each flight.
 
-Example:
+Examples:
 
-![Example](https://raw.githubusercontent.com/reemrizzk/flight-tracker-reactjs/main/example1.png)
+![Example 1](https://raw.githubusercontent.com/reemrizzk/flight-tracker-reactjs/main/example1.png)
+
+![Example 2](https://raw.githubusercontent.com/reemrizzk/flight-tracker-reactjs/main/example2.png)
 
 ## Features
 
